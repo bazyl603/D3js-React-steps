@@ -1,0 +1,20 @@
+.Render {
+    width: 300px;
+    height: 80vh;
+    text-align: center;
+}
+
+.year {
+    font-size: 50px;
+    color:darkgrey;
+    margin-bottom: 10px;
+}
+
+.select {
+    margin: 10px;
+}
+
+.text-button {
+    color: whitesmoke;
+    text-decoration: none;
+}
