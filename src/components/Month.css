@@ -1,20 +1,11 @@
-.Render {
+.Month{
     width: 500px;
     height: 80vh;
     text-align: center;
 }
 
-.year {
+.month {
     font-size: 50px;
     color:darkgrey;
     margin-bottom: 10px;
-}
-
-.select {
-    margin: 10px;
-}
-
-.text-button {
-    color: whitesmoke;
-    text-decoration: none;
 }

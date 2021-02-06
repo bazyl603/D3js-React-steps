@@ -5,7 +5,6 @@ import "./Render.css";
 
 function Render() {
     const [month, setMonth] = useState('January');
-    console.log(month);
 
     const selectMonth = (event) => {
         setMonth(event.target.value);
@@ -16,7 +15,7 @@ function Render() {
             <h2 className="year">2020</h2>
             <label>
                 Please select a month:
-                <br/>
+            <br/>
             <select className="select" value={month} onChange={selectMonth}>
                 <option value="January">January</option>
                 <option value="February">February</option>
@@ -32,8 +31,8 @@ function Render() {
                 <option value="December">December</option>
             </select>
             <br/>
-        </label>
-            <button class="pure-button pure-button-primary"><Link to={{pathname: {month}}} className="text-button">Gooo</Link></button>
+            </label>
+            <Link to={`/${month}`} className="text-button"><button class="pure-button pure-button-primary">Gooo</button></Link>
         </div>
     );
 }
