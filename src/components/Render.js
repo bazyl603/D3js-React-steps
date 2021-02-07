@@ -32,7 +32,7 @@ function Render() {
             </select>
             <br/>
             </label>
-            <Link to={`/${month}`} className="text-button"><button class="pure-button pure-button-primary">Gooo</button></Link>
+            <Link to={`/${month}`} className="text-button"><button className="pure-button pure-button-primary">Gooo</button></Link>
         </div>
     );
 }
