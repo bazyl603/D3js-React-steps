@@ -1,11 +1,26 @@
 .Month{
     width: 500px;
-    height: 80vh;
+    height: 15vh;
     text-align: center;
+    margin-bottom: 15px;
 }
 
 .month {
     font-size: 50px;
     color:darkgrey;
+    margin-bottom: 10px;
+}
+
+svg{
+    overflow: visible;
+    margin-bottom: 2rem;
+    display: block;
+    width: 500px;
+    height: 300px;
+}
+
+.steps{
+    font-size: 20px;
+    color:rgba(169, 169, 169, 0.664);
     margin-bottom: 10px;
 }
